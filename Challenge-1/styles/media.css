@@ -1,0 +1,26 @@
+@media screen and (max-width:650px) {
+    body{
+        align-items: flex-start;
+        background-color: white;
+    }
+
+    .container{
+        box-shadow: none;
+        width: 650px;
+    }
+    .card{       
+        flex-direction: column;
+    }
+
+    .results{
+        border-radius: 0 0 1rem 1rem;
+        width: 100%;
+    }
+    .results .info{
+        width: 250px;
+    }
+
+    .summary{
+        width: 100%;
+    }
+}
