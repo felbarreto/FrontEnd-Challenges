@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+}
+h3{
+    color: hsl(0, 0%, 100%); 
+}
+.container{
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    width: 350px;
+}
+.card{
+    gap: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image img{
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.info{
+    gap: 1rem; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+.value{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.value b, .days{
+    gap : .5rem;
+    display: flex;
+    align-items: center;
+      
+}
+.value b{
+    color:hsl(178, 100%, 50%);
+}
+
+#line{
+    width: 100%;
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
+.creator{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.creator img{
+    border-radius: 50%;
+    border: .5px solid white;
+    width: 30px;
+    height: 30px;
+}
+
+.creator p{
+    margin-left: 12px;
+}
+
+.creator span{
+   color: hsl(0, 0%, 100%); 
+}
