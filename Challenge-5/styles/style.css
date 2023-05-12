@@ -103,20 +103,3 @@ p{
 .btn3{
     color: var(--card-3);
 }
-
-@media screen and (max-width:450px){
-    body{
-        display: block;
-    }
-    .container{
-    flex-direction: column;
-   }
-
-   .cards{
-        height: 100%;
-        width: 100%;
-   }
-}
-
-
-
