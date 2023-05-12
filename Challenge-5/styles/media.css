@@ -1,0 +1,31 @@
+@media screen and (max-width:450px){
+
+    .container{
+        height: 95%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   }
+
+   .cards{  
+        width: 90%;
+        height: 33%;
+        display: flex;
+        justify-content: center;
+   }
+    .info{
+        gap: 1rem;
+        width: 90%;
+        font-size: 15px;
+    }
+
+    .card-1{
+        border-radius: 15px 15px 0 0;
+
+    }
+
+        .card-3{
+        border-radius: 0 0 15px 15px;
+    }
+}
+
