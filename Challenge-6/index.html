@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <main class = "rating-state hide">
+        <main class = "rating-state">
             <div class="imagem"><img src="images/icon-star.svg" alt=""></div>
             <div class="info">
                 <h1>How did we do?</h1>
@@ -18,21 +18,21 @@
                     to help us improve our offering!</p>
             </div>
             <div class="rates">
-                <ul>
-                    <li class="rate">1</li>
-                    <li class="rate">2</li>
-                    <li class="rate">3</li>
-                    <li class="rate">4</li>
-                    <li class="rate">5</li>
+                <ul class="rating-nums">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
                 </ul>
             </div>
 
-        <button id="sumbit"> SUBMIT </button>
+        <button class="sumbit"> SUBMIT </button>
         </main>
 
-        <section class="result">
+        <section class="thank-state hide">
             <img src="images/illustration-thank-you.svg" alt="">
-            <p class="selection">You selected <span>#</span> out of 5</p>
+            <p class="selection">You selected <span id="point"></span> out of 5</p>
 
             <div class="thanks">
 
