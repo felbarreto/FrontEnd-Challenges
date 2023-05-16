@@ -97,13 +97,16 @@ li{
 
 li:hover{
     color: white;
+    background-color: var(--font);
+}
+
+.active{
+    color: white;
     background-color: var(--orange);
 }
 
-li:active{
-    background-color: var(--font);
-    color: white;
-    
+.active:hover{
+    background-color: var(--orange);
 }
 
 .rating-state button{
@@ -121,7 +124,7 @@ li:active{
     color: var(--orange);
 }
 
-.result{
+.thank-state{
     display: flex;
     align-items: center;
     justify-content: center;
